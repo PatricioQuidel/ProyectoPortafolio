@@ -1,5 +1,21 @@
-
 h1{
+    color:purple;
     text-align: center;
-    background-color: aquamarine;
+    background-color: lightblue;
+}
+
+#Parrafopresentacion{
+    text-align: center;
+    color: white;
+    font-size: "18px"
+}
+
+#contenedorForm{
+    background-color: lightgreen;
+}
+
+@media only screen and (min-width: 768px) {
+    #contenedorForm{
+        background-color: lightblue;
+    }
 }

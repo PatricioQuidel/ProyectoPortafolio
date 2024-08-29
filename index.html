@@ -7,10 +7,44 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <title>Portafolio2024</title>
   </head>
-  <body>
-    <h1>Patricio Quidel Painemil</h1>
-    <p>Desarrollador fullStack</p>
-    <p></p>
+  <body onload="asignarEventos()">
+    <header class="col-xs-12 bg-info">
+      <h1>Portafolio 2024</h1>
+    </header>
+    <nav>
+      <h1>Desarrollador Front End</h1>
+    </nav>
+    <main class="conteiner">
+      <div class="row">
+              <section class="col-xs-12 col-md-8 bg-warning">
+                  <button id="btnsimple" type="button" class="btn btn-success">Contacto</button>
+              </section>
+              <article class="col-xs-12 col-md-8 bg-warning">
+                  <p id="Parrafopresentacion">Desarrollador junior de front End con conocimientos en diseño de web y programación basica en javascript</p>
+              </article>
+              <aside class="col-xs-12 col-md-4 bg-primary">
+                  <p>Estudiante de tercer año en ingeniería civil, con conocimiento académicos en AutoCAD, Excel nivel intermedio e informática además del uso de redes sociales.</p>
+                      <div id="contenedorForm">
+                            <form>
+                            <div class="mb-3">
+                              <label for="emailContacto" class="form-label">Email:</label>
+                              <input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="telefonoContacto" class="form-label">Teléfono:</label>
+                              <input type="number" class="form-control" id="telefonoContacto">
+                            </div>
+
+                            <button id="btnForm" type="button" class="btn btn-success">Enviar</button>
+                            </form>
+                </div>
+              </aside>
+        </div>
+    </main>
+    <footer>
+      <small>Hecho por Patricio Quidel</small>
+    </footer>
     <script src="./assets/js/logica.js"></script>
   </body>
 </html>
